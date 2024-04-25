@@ -2496,6 +2496,66 @@ input, select, textarea {
 				text-align: center;
 			}
 
+/* Tabs */
+
+#tabDescriptions {
+	background-color: #022002;
+	padding-bottom: 75px;
+}
+
+#tabTitle{
+	padding-top: 75px;
+	color: white;
+	font-weight: 400;
+
+}
+
+.tabs {
+    display: flex; /* Use flexbox */
+    width: 100%; /* Full width of the viewport */
+	Height: 150px;
+	margin: 0 auto;
+    justify-content: space-around; /* Distribute space evenly between tabs */
+}
+
+.tab-button {
+    background-color: #005e1c; /* Default background color for tabs */
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s ease; /* Add transition for background color */
+    flex: 1; /* Each tab takes equal space */
+	border-radius: 0;
+}
+
+.tab-button.active {
+    background-color: #fff; /* Background color for active tab */
+    color: white; /* Text color for active tab */
+	color: black;
+}
+
+.tab-content {
+    display: none;
+}
+
+.tab-content.active {
+    display: block;
+}
+
+.tabBg{
+ background-color: #FFF;
+}
+
+.tabSpacing{
+	padding-top: 40px;
+}
+
+.tabSpacingDown{
+	padding-bottom: 40px;
+}
+
+
+
 /* Wide */
 
 	@media screen and (max-width: 1680px) {
