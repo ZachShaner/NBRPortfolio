@@ -286,6 +286,8 @@ input, select, textarea {
 		flex-wrap: wrap;
 		box-sizing: border-box;
 		align-items: stretch;
+		justify-content: center;
+		padding-top: 3em;
 	}
 
 		.row > * {
@@ -3079,5 +3081,5 @@ input, select, textarea {
 	}
 
 	#Portfolio{
-		padding-top: 0;
+		background-color: #022002;
 	}
