@@ -1,4 +1,5 @@
 @import url("https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,300italic,400,400italic,600");
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&display=swap');
 @import url("fontawesome-all.min.css");
 
 @font-face {
@@ -1805,7 +1806,7 @@ input, select, textarea {
 		.image.featured {
 			display: block;
 			width: 100%;
-			margin: 0 0 4em 0;
+			margin: 0 0 1.5em 0;
 		}
 
 		.image.left {
@@ -2337,7 +2338,7 @@ input, select, textarea {
 		position: relative;
 		overflow: hidden;
 		padding: 6em 0 6em 0;
-		background: #022002;
+		background: #0c0f0b;
 		color: #fff;
 	}
 
@@ -3076,10 +3077,33 @@ input, select, textarea {
 
 	.mainintro{
 		position:relative;
-		width:50%;
+		width:53%;
 		padding-top: 1em;
 	}
 
 	#Portfolio{
-		background-color: #022002;
+		background-color: #0c0f0b;
+		font-family: 'Nunito Sans', sans-serif;
+	}
+
+	#logo{
+		color: #21b35c;
+		font-weight: bold;
+	}
+	
+	#Welcome{
+		color: white;
+	}
+
+	#Portfolio p{
+		color: #FFFFF0;
+		font-family: 'Nunito Sans', sans-serif;
+	}
+	
+	#Portfolio h3{
+		color: #21b35c;
+		text-transform: uppercase;
+		font-size: 1.2em;
+		font-weight: bold;
+		font-family: 'Nunito Sans', sans-serif;
 	}
