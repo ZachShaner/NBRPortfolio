@@ -3236,6 +3236,12 @@ input, select, textarea {
 		font-weight: bold;
 		font-family: 'Nunito Sans', sans-serif;
 	}
+	#Portfolio h2{
+		color: #21b35c;
+		text-transform: uppercase;
+		font-weight: bold;
+		font-family: 'Nunito Sans', sans-serif;
+	}
 
 	.dark{
 		background: #0c0f0b;
